@@ -63,7 +63,7 @@
         If ProgressBar2.Value = 100 Then
             Timer2.Stop()
             MsgBox("You have the Lite version. You cannot remove all of your optimization issues. Please buy the full version.", MsgBoxStyle.OkOnly Or MsgBoxStyle.Exclamation, "Lite Version")
-            Label3.Text = "You have still optimization issues."
+            Label3.Text = "You still have optimization issues."
             ProgressBar2.Value = 0
         End If
     End Sub
@@ -74,5 +74,21 @@
 
     Private Sub Process1_Exited(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
+    End Sub
+
+    Private Sub NotifyIcon1_MouseDoubleClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Me.Leave
+        NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
+        NotifyIcon1.BalloonTipText = "Please make a scan on your computer to remove threats."
+        NotifyIcon1.BalloonTipTitle = "Threats might be on your computer."
+        NotifyIcon1.ShowBalloonTip(2000)
+    End Sub
+
+
+    Private Sub NotifyIcon1_MouseDoubleClick_1(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles NotifyIcon1.MouseDoubleClick
+
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        Process.Start("https://doptimizer.xp3.biz")
     End Sub
 End Class

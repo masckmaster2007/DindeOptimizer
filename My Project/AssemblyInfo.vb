@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Passez en revue les valeurs des attributs de l'assembly
 
-<Assembly: AssemblyTitle("$safeprojectname$")> 
+<Assembly: AssemblyTitle("Dinde Optimizer")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("$safeprojectname$")> 
+<Assembly: AssemblyProduct("Dinde Optimizer")> 
 <Assembly: AssemblyCopyright("Copyright ©  2020")> 
 <Assembly: AssemblyTrademark("")> 
 

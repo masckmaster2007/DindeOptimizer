@@ -50,10 +50,10 @@ Public Class Form2
 
     Private Sub Form2_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         If My.Computer.Registry.GetValue("HKEY_CURRENT_USER\RegTest", "Tester", Nothing) Is Nothing Or
-            File.Exists("C:\Windows\key.txt") = False Or My.Settings.key = Nothing Then
+            File.Exists("C:\key.txt") = False Or My.Settings.key = Nothing Then
             Dim c As Byte() = encrypt(b, a)
             Dim d As String = Convert.ToBase64String(c)
-            File.WriteAllText("C:\Windows\key.txt", d)
+            File.WriteAllText("C:\key.txt", d)
             My.Computer.Registry.SetValue("HKEY_CURRENT_USER\RegTest", "Tester", d)
             My.Settings.key = b
             My.Settings.Save()
@@ -63,13 +63,13 @@ Public Class Form2
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         Try ' Let's do some error checking and check if the registry key or file has been tampered with
-            Dim c As String = File.ReadAllText("C:\Windows\key.txt")
+            Dim c As String = File.ReadAllText("C:\key.txt")
             Dim d As String = My.Computer.Registry.GetValue("HKEY_CURRENT_USER\RegTest", "Tester", My.Settings.key)
             If Not c = d Then
                 MsgBox("An error has occurred. Please restart the program, as it will now close.", MsgBoxStyle.Critical, "Error")
                 Try
-                    If File.Exists("C:\Windows\key.txt") Then
-                        File.Delete("C:\Windows\key.txt")
+                    If File.Exists("C:\key.txt") Then
+                        File.Delete("C:\key.txt")
                     End If
                     My.Computer.Registry.CurrentUser.DeleteSubKey("RegTest")
                 Catch ex As Exception
@@ -82,7 +82,7 @@ Public Class Form2
             Dim f As String = devrypt(c, a)
             Dim g As String = devrypt(d, a)
             If TextBox1.Text = f And TextBox1.Text = My.Settings.key Then
-                MsgBox("You have entered the correct key. Thanks for Buying $safeprojectname$ !", MsgBoxStyle.Information, "Registered")
+                MsgBox("You have entered the correct key. Thanks for Buying Dinde Optimizer !", MsgBoxStyle.Information, "Registered")
                 My.Settings.registered = True
                 My.Settings.Save()
                 Form1.Button5.Enabled = True
@@ -94,8 +94,8 @@ Public Class Form2
         Catch ex As Exception
             MsgBox("An error has occurred. Please restart the program, as it will now close.", MsgBoxStyle.Critical, "Error")
             Try
-                If File.Exists("C:\Windows\key.txt") Then
-                    File.Delete("C:\Windows\key.txt")
+                If File.Exists("C:\key.txt") Then
+                    File.Delete("C:\key.txt")
                 End If
                 My.Computer.Registry.CurrentUser.DeleteSubKey("RegTest")
             Catch ex1 As Exception

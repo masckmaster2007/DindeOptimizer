@@ -1,0 +1,23 @@
+C:\Users\Dimitrakis\AppData\Local\Temporary Projects\Dinde Optimizer\bin\Release\Dinde Optimizer.exe.config
+C:\Users\Dimitrakis\AppData\Local\Temporary Projects\Dinde Optimizer\bin\Release\Dinde Optimizer.exe
+C:\Users\Dimitrakis\AppData\Local\Temporary Projects\Dinde Optimizer\bin\Release\Dinde Optimizer.pdb
+C:\Users\Dimitrakis\AppData\Local\Temporary Projects\Dinde Optimizer\bin\Release\Dinde Optimizer.xml
+C:\Users\Dimitrakis\AppData\Local\Temporary Projects\Dinde Optimizer\obj\x86\Release\Dinde_Optimizer.Form1.resources
+C:\Users\Dimitrakis\AppData\Local\Temporary Projects\Dinde Optimizer\obj\x86\Release\Dinde_Optimizer.Form2.resources
+C:\Users\Dimitrakis\AppData\Local\Temporary Projects\Dinde Optimizer\obj\x86\Release\Dinde_Optimizer.Resources.resources
+C:\Users\Dimitrakis\AppData\Local\Temporary Projects\Dinde Optimizer\obj\x86\Release\Dinde Optimizer.vbproj.GenerateResource.Cache
+C:\Users\Dimitrakis\AppData\Local\Temporary Projects\Dinde Optimizer\obj\x86\Release\Dinde Optimizer.exe
+C:\Users\Dimitrakis\AppData\Local\Temporary Projects\Dinde Optimizer\obj\x86\Release\Dinde Optimizer.xml
+C:\Users\Dimitrakis\AppData\Local\Temporary Projects\Dinde Optimizer\obj\x86\Release\Dinde Optimizer.pdb
+C:\Users\Dimitrakis\documents\visual studio 2010\Projects\Dinde Optimizer\Dinde Optimizer\bin\Release\Dinde Optimizer.exe.config
+C:\Users\Dimitrakis\documents\visual studio 2010\Projects\Dinde Optimizer\Dinde Optimizer\bin\Release\Dinde Optimizer.exe
+C:\Users\Dimitrakis\documents\visual studio 2010\Projects\Dinde Optimizer\Dinde Optimizer\bin\Release\Dinde Optimizer.pdb
+C:\Users\Dimitrakis\documents\visual studio 2010\Projects\Dinde Optimizer\Dinde Optimizer\bin\Release\Dinde Optimizer.xml
+C:\Users\Dimitrakis\documents\visual studio 2010\Projects\Dinde Optimizer\Dinde Optimizer\obj\x86\Release\Dinde_Optimizer.Form1.resources
+C:\Users\Dimitrakis\documents\visual studio 2010\Projects\Dinde Optimizer\Dinde Optimizer\obj\x86\Release\Dinde_Optimizer.Form2.resources
+C:\Users\Dimitrakis\documents\visual studio 2010\Projects\Dinde Optimizer\Dinde Optimizer\obj\x86\Release\Dinde_Optimizer.Resources.resources
+C:\Users\Dimitrakis\documents\visual studio 2010\Projects\Dinde Optimizer\Dinde Optimizer\obj\x86\Release\Dinde Optimizer.vbproj.GenerateResource.Cache
+C:\Users\Dimitrakis\documents\visual studio 2010\Projects\Dinde Optimizer\Dinde Optimizer\obj\x86\Release\Dinde Optimizer.exe
+C:\Users\Dimitrakis\documents\visual studio 2010\Projects\Dinde Optimizer\Dinde Optimizer\obj\x86\Release\Dinde Optimizer.xml
+C:\Users\Dimitrakis\documents\visual studio 2010\Projects\Dinde Optimizer\Dinde Optimizer\obj\x86\Release\Dinde Optimizer.pdb
+C:\Users\Dimitrakis\documents\visual studio 2010\Projects\Dinde Optimizer\Dinde Optimizer\obj\x86\Release\Dinde_Optimizer.SplashScreen1.resources
